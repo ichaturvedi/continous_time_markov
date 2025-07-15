@@ -5,5 +5,6 @@ This code implements the model discussed in the paper on detecting human activit
 Requirements
 ---
 This code is based on the Text classifier code found at:
+
 https://au.mathworks.com/help/sdl/ug/single-cylinder-engine.html
 
