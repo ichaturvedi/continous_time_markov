@@ -1,6 +1,6 @@
 function get_hmm_prob(inputfile)
 
-watch = load("weka_input_apple.csv");
+watch = load(inputfile);
 
 output_train = watch(:,1);
 thr = output_train;
@@ -25,3 +25,4 @@ input2 = discretize([normalize(thr,'range') normalize(ang,'range') normalize(brk
 save prob.mat estimateE2 estimateTR2;
 
 end
+
