@@ -17,6 +17,13 @@ Data collected from Smartwatch for a single participant every few minutes for di
 
 Hidden Markov Model
 ---
+- The training data contains the heart rate, number of steps and intensity for different participants and the activity label
+- Hidden markov models are used to extract the transition probabilities between different activities
+
+We can run the script in hmm folder as follows : 
+get_hmm_prob(inputfile)
+- Input is the training data
+- Output is a file containing the transition and emission probabilities
 
 Simulink 
 ---
