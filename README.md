@@ -40,5 +40,14 @@ create_train_simulink(inputfile)
 Stability Constraint
 ---
 
+- We select a subset of training samples using a stability constraint
+- This requires the Yalmip package at https://yalmip.github.io/
+
+We can select the samples using the following script in semidef folder:
+
+select_samples(inputfile)
+- Input is the training data, probability matrix and the simulink parameter matrices
+- Output is a subset of training samples
+
 Classification
 ---
