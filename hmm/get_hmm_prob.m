@@ -1,4 +1,4 @@
-clear
+function get_hmm_prob(inputfile)
 
 watch = load("weka_input_apple.csv");
 
@@ -23,3 +23,5 @@ input2 = discretize([normalize(thr,'range') normalize(ang,'range') normalize(brk
 [estimateTR2,estimateE2] = hmmestimate(input2,gear2);
 
 save prob.mat estimateE2 estimateTR2;
+
+end
