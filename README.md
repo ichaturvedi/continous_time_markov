@@ -21,6 +21,7 @@ Hidden Markov Model
 - Hidden markov models are used to extract the transition probabilities between different activities
 
 We can run the script in hmm folder as follows : 
+
 get_hmm_prob(inputfile)
 - Input is the training data
 - Output is a file containing the transition and emission probabilities
@@ -31,7 +32,10 @@ Simulink
 - We extract features using a simulink control model
 
 We can run the simulink script as follows :
-create_train_simulink
+
+create_train_simulink(inputfile)
+- Input is the training data
+- Output is the control parameters needed for the stability constraint 
 
 Stability Constraint
 ---
