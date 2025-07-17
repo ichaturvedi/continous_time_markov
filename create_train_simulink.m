@@ -1,6 +1,6 @@
-function create_train_simulink()
+function create_train_simulink(inputfile)
 
-watch_data_final = load('weka_input_apple.csv');
+watch_data_final = load(inputfile);
 
 %output_train = watch.data(:,2);
 output_train = watch_data_final(:,1);
