@@ -51,3 +51,13 @@ select_samples(inputfile)
 
 Classification
 ---
+
+- We can rerun the simulink model with the new samples to generate the final features
+
+We can run the second simulink script as follows in semidef folder :
+
+create_train_simulink2(inputfile)
+- Input is the training data
+- Output is the new features combined with the original features
+
+We use this output file to compute the F-measure using a Random Forest classifier
