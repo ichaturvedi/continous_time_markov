@@ -14,3 +14,15 @@ Smartwatch Dataset
 Data collected from Smartwatch for a single participant every few minutes for different activities : 
 
 ![Image](https://github.com/user-attachments/assets/31126fc9-f2bd-4dbf-8673-2dc3d149bc4f)
+
+Hidden Markov Model
+---
+
+Simulink 
+---
+
+Stability Constraint
+---
+
+Classification
+---
