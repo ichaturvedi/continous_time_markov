@@ -11,6 +11,6 @@ https://au.mathworks.com/help/sdl/ug/single-cylinder-engine.html
 Smartwatch Dataset
 ---
 
-![Image](https://github.com/user-attachments/assets/b54cd449-0c6e-48c5-92ca-535b110621b9 | width = 20)
+![Image](https://github.com/user-attachments/assets/b54cd449-0c6e-48c5-92ca-535b110621b9)
 
-![Image](https://github.com/user-attachments/assets/f35ae2e7-4739-4ddd-8b2a-09e119050e94 | width = 20)
+![Image](https://github.com/user-attachments/assets/f35ae2e7-4739-4ddd-8b2a-09e119050e94)
