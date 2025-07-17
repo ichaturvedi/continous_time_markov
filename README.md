@@ -28,6 +28,11 @@ get_hmm_prob(inputfile)
 Simulink 
 ---
 
+- We extract features using a simulink control model
+
+We can run the simulink script as follows :
+create_train_simulink
+
 Stability Constraint
 ---
 
