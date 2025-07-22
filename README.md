@@ -58,6 +58,6 @@ We can run the second simulink script as follows in semidef folder :
 
 create_train_simulink2(inputfile)
 - Input is the training data
-- Output is the new features combined with the original features
+- Output is the new predicted feature combined with the original features
 
-We use this output file to compute the F-measure using a Random Forest classifier
+We use this output file to compute the F-measure using a LSTM classifier
